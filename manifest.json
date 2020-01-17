@@ -1,0 +1,20 @@
+{
+  "name": "Portfólio de Juliandro Rocha Ribeiro",
+  "short_name": "Portfólio de Juliandro Rocha Ribeiro",
+  "icons": [
+    {
+      "src": "./img/icons/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#060E12"
+}
