@@ -1,4 +1,387 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/favicon.ico"><![endif]--><title>Portfólio - Juliandro Rocha</title><link href=/css/app.2080100a.css rel=preload as=style><link href=/js/app.7e0046d5.js rel=preload as=script><link href=/js/chunk-vendors.79220dca.js rel=preload as=script><link href=/css/app.2080100a.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png><link rel=manifest href=/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=portfolio><link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body><noscript><strong>We're sorry but portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.79220dca.js></script><script src=/js/app.7e0046d5.js></script></body><style>body {
-    margin: 0;
-    padding: 0;
-  }</style></html>
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juliandro Rocha - Portfólio</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index_mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <main id="page">
+      <header id="header">
+        <img src="./img/logo_white.png" alt="<J/R>" class="logo-header" />
+
+        <nav class="header-navigation">
+          <a href="#start" class="navigation-item nav-link">Início</a>
+          <a href="#aboutMe" class="navigation-item nav-link">Sobre Mim</a>
+          <a href="#doIdo" class="navigation-item nav-link">O que faço</a>
+          <a href="#projects" class="navigation-item nav-link">Projetos</a>
+          <a href="#contacts" class="navigation-item nav-link">Contato</a>
+        </nav>
+
+        <button onclick="acessCv" class="button-contact-me">Baixar CV</button>
+      </header>
+
+      <section id="start" class="start-content">
+        <div class="container-apresentation">
+          <div class="container-networks-socials">
+            <a href="https://github.com/JuliandroR">
+              <img src="./img/icons/github-logo.png" alt="Github" />
+            </a>
+            <a href="https://www.facebook.com/juliandro.ribeiro.1">
+              <img src="./img/icons/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/juliandro.rocha/">
+              <img src="./img/icons/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com/Juju5Juliandro">
+              <img src="./img/icons/twitter.png" alt="Twitter" />
+            </a>
+          </div>
+          <h2 class="name">Juliandro R. Ribeiro</h2>
+          <h3 class="message">
+            Nada acontece por acaso! A vida é como um trem, cada vagão carrega
+            os momentos que marcaram a existência, cada parada é algo que
+            constrói o seu eu e o trilho é o caminho que um dia terá fim.
+          </h3>
+        </div>
+        <img
+          src="./img/profile_foto_no_background.png"
+          alt="Foto de Juliandro Rocha"
+          class="profile-image-start"
+        />
+      </section>
+
+      <section id="aboutMe" class="aboutMe-content">
+        <!-- <h2 class="title-content">Sobre Mim</h2> -->
+        <div>
+          <img src="./img/profile_foto.png" class="image-about-me" />
+        </div>
+        <section class="about-me">
+          <h3 class="title-section">Sobre Mim</h3>
+          <p>
+            Olá! Me Chamo Juliandro, sou Programador Júnior e Técnico em
+            Informática pelo Instituto Federal de Educação, Ciência e Tecnologia
+            de Mato Grosso do Sul (IFMS) - Campus Nova Andradina. Amante e
+            curioso nato pelas novas tecnologias e tudo de novo que a
+            informática pode vir a oferecer. Com uma personalidade simples e
+            sensível com o Mundo, busco sempre encontrar o melhor de tudo;
+            fotógrafo por Hobbie, amo me expressar por imagens e criações
+            simples que demonstram quem sou. Detalhismo, atenção e compromisso
+            com o trabalho são os pontos de maior destaque de minha
+            personalidade.
+          </p>
+          <section class="about-me-extra">
+            <h3>Nome</h3>
+            <h2>Juiandro Rocha Ribeiro</h2>
+          </section>
+          <section class="about-me-extra">
+            <h3>Data de Nascimento</h3>
+            <h2>17/01/2001</h2>
+          </section>
+          <section class="about-me-extra">
+            <h3>Formação</h3>
+            <h2>Ensino Médio Técnico Completo</h2>
+          </section>
+          <section class="about-me-extra">
+            <h3>E-mail</h3>
+            <h2>juliandro.rocha@gmail.com</h2>
+          </section>
+        </section>
+        <section class="skills">
+          <h3 class="title-section">Habilidades</h3>
+          <div class="skill">
+            <img src="./img/icons/languages/html.png" alt="HTML" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 70%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="./img/icons/languages/css.png" alt="CSS" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 70%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="./img/icons/languages/javascript.png" alt="JavaScript" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 50%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                50%
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="./img/icons/languages/github.png" alt="GitHub" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 35%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                35%
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="./img/icons/languages/cordova.png" alt="Cordova" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 65%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="./img/icons/languages/nodejs.png" alt="NodeJS" />
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 45%;"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                45%
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="doIdo" class="whatIDo-content">
+        <h2 class="title-content title-what-i-do">O que Faço</h2>
+
+        <div class="works">
+          <article class="work">
+            <img src="./img/whatIDo/assistance.png" />
+            <div>
+              <h2>Assistência Técnica</h2>
+              <p>
+                Assitência Técnica voltada para sistemas. Formatação de
+                computadores, instalação de Programas, remoção de Vírus.
+              </p>
+            </div>
+          </article>
+
+          <article class="work">
+            <img src="./img/whatIDo/responsive_layout.png" />
+            <div>
+              <h2>Páginas Web</h2>
+              <p>
+                Desenvolvimento de paǵinas web, blog, portfólios com layout
+                responsivo que se adequa ao dispositivo acessado.
+              </p>
+            </div>
+          </article>
+
+          <article class="work">
+            <img src="./img/whatIDo/ideia.png" />
+            <div>
+              <h2>Artes Gráficas</h2>
+              <p>
+                Criação de Flyers de divulgação, cartões de visita, banners de
+                apresentação.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-content">
+        <h2 class="title-content">Projetos</h2>
+
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/works/speak.png" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <a
+                  class="btn btn-primary"
+                  href="https://play.google.com/store/apps/details?id=com.speak.tcc"
+                  target="_blank"
+                  >Acessar SPE@K</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/works/bit-journal.png" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <a
+                  class="btn btn-primary"
+                  href="https://bit-journal.herokuapp.com/"
+                  target="_blank"
+                  >Acessar Bit-Journal</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/works/calculadora-ip.png" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <a
+                  class="btn btn-primary"
+                  href="https://calculo-ip.herokuapp.com/"
+                  target="_blank"
+                  >Acessar Calculadora de Redes e Sub Redes</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/works/cifra-vigenere.png" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <a
+                  class="btn btn-primary"
+                  href="https://juliandror.github.io/cifra-vigenere/"
+                  target="_blank"
+                  >Acessar Cifrador de Vigenère</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/works/page-ieducar.png" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <a
+                  class="btn btn-primary"
+                  href="https://suporte-ieducar.herokuapp.com/"
+                  target="_blank"
+                  >Acessar Página de Suporte i-Educar</a
+                >
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="contacts" class="contact-content">
+        <h2 class="title-content">Contatos</h2>
+        <article class="section-option-contact">
+          <section class="container-contact">
+            <div class="contact">
+              <img src="./img/icons/linkedin.png" alt="Linkedin" />
+              <a
+                href="https://www.linkedin.com/in/juliandro-rocha-ribeiro-892275180"
+                target="_blank"
+              >
+                <p>Juliandro Rocha Ribeiro</p>
+              </a>
+            </div>
+            <div class="contact">
+              <img src="./img/icons/email.png" alt="E-mail of contact" />
+              <a href="mailto:juliandro.rocha@gmail.com" target="_blank">
+                <p>juliandro.rocha@gmail.com</p>
+              </a>
+            </div>
+            <div class="contact">
+              <img src="./img/icons/smartphone.png" alt="Whatsapp" />
+              <a
+                href="https://api.whatsapp.com/send?phone=556798827820&text=&source=&data="
+                target="_blank"
+              >
+                <p>(67) 9 9882-7820</p>
+              </a>
+            </div>
+          </section>
+        </article>
+        <article class="other-contacts">
+          <a href="https://github.com/JuliandroR" target="_blank">
+            <img src="./img/icons/github-logo.png" alt="Github" />
+          </a>
+          <a
+            href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8015544Z6"
+            target="_blank"
+          >
+            <img src="./img/icons/lattes.png" alt="Lattes" />
+          </a>
+          <a
+            href="https://www.facebook.com/juliandro.ribeiro.1"
+            target="_blank"
+          >
+            <img src="./img/icons/facebook.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/juliandro.rocha/" target="_blank">
+            <img src="./img/icons/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://twitter.com/Juju5Juliandro" target="_blank">
+            <img src="./img/icons/twitter.png" alt="Twitter" />
+          </a>
+        </article>
+      </section>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>

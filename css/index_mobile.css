@@ -1,0 +1,150 @@
+@media (orientation: portrait) {
+  .logo-header {
+    display: block;
+    height: 6vh;
+    margin: 0 0 0 10vw;
+    margin-top: 0.5vh;
+  }
+
+  .header-navigation {
+    display: none;
+  }
+
+  .button-contact-me {
+    width: 30vw;
+    height: 5vh;
+  }
+
+  .container-apresentation {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-left: 0;
+  }
+
+  .container-apresentation .container-networks-socials {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .container-apresentation .container-networks-socials a img {
+    width: 3.5vh;
+  }
+
+  .container-apresentation .name {
+    font-size: 6.5vh;
+  }
+
+  .container-apresentation .message {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1vh;
+    font-size: 1.75vh;
+  }
+
+  .profile-image-start {
+    width: 100vw;
+    height: 100vw;
+    margin-top: 20vh;
+  }
+
+  .image-about-me {
+    display: none;
+  }
+
+  .about-me {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .title-section {
+    text-align: center;
+    font-size: 3.5vh;
+  }
+
+  .about-me p {
+    font-size: 1.9vh;
+  }
+
+  .about-me-extra {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  .about-me-extra h3 {
+    font-size: 1.9vh;
+    margin: 0;
+    margin-top: 2vh;
+  }
+
+  .about-me-extra h2 {
+    font-size: 1.75vh;
+  }
+
+  .skills {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+  }
+
+  .works .work {
+    width: 90%;
+    padding: 1vh;
+  }
+
+  .works .work img {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  .works .work div {
+    width: 95%;
+    margin-top: 5vh;
+  }
+
+  .works .work div h2 {
+    font-size: 2.5vh;
+  }
+
+  .works .work div p {
+    font-size: 1.5vh;
+  }
+
+  #carouselExampleCaptions {
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+
+  .container-contact {
+    width: 90%;
+    display: block;
+    margin: 10vh auto 0 auto;
+  }
+
+  .contact {
+    justify-content: space-between;
+  }
+
+  .contact img {
+    height: 12vw;
+  }
+
+  .contact a {
+    text-decoration: none;
+    width: 80vw;
+  }
+
+  .contact a p {
+    font-size: 3.15vh;
+  }
+
+  .other-contacts {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2.5vh;
+  }
+
+  .other-contacts a img {
+    height: 10vw;
+  }
+}
